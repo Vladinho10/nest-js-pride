@@ -6,8 +6,7 @@ export class RootController {
   constructor(private readonly rootService: RootService) {}
 
   @Get('/v1')
-  getHello(): string {
-    console.log({ a: 1 });
+  async getHello(): Promise<any> {
     return this.rootService.getHello();
   }
 }
