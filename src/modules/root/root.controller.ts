@@ -5,7 +5,7 @@ import { RootService } from './root.service';
 export class RootController {
   constructor(private readonly rootService: RootService) {}
 
-  @Get('/v1')
+  @Get()
   async getHello(): Promise<any> {
     return this.rootService.getHello();
   }
