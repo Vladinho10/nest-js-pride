@@ -29,18 +29,18 @@
 ## Installation
 
 ```bash
-$ npm install
+$ npm i
+or 
+$ yarn
 ```
 
 ## Running the app
 
 ```bash
-# development
+# development / watch mode
 $ npm run start
-
-# watch mode
-$ npm run start:dev
-
+or
+$ yarn run start
 # production mode
 $ npm run start:prod
 ```
@@ -57,6 +57,9 @@ $ npm run test:e2e
 # test coverage
 $ npm run test:cov
 ```
+## Docker container
+
+About the template's docker images and container please look in Dockerfile file  
 
 ## Support
 

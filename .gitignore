@@ -32,9 +32,8 @@ lerna-debug.log*
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
-./.idea
 
-./src/envs/.env.local
-./src/envs/.env.prod.local
-./src/envs/.env.stage.local
-./uploads
+/src/envs/.env.local
+/src/envs/.env.prod.local
+/src/envs/.env.stage.local
+/uploads
